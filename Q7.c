@@ -19,11 +19,11 @@ int main(){
     q = (num * num);
     raizq = sqrt(num);
 
-    printf("O numero ao quadrado: %d", q);
-    printf("Raiz quadrada: %d", raizq);
+    printf("O numero ao quadrado: %d\n", q);
+    printf("Raiz quadrada: %d\n", raizq);
   } else {
     if (num < 0){
-      printf("Operacao Invalida");
+      printf("Operacao Invalida\n");
     }
   }
 
